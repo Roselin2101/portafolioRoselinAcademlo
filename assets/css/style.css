@@ -27,6 +27,7 @@
   --normal-font-size: 16px;
   --small-font-size: 14px;
   --smaller-font-size: 12px;
+  
 
   /* Grosores */
   --font-medium: 400;
@@ -99,6 +100,7 @@ img {
 .section__title {
   text-align: center;
   margin: var(--mr-3) 0;
+  color: rgb(123, 39, 202);
 }
 
 .grid--container {
@@ -174,6 +176,17 @@ a.navbar__logo{
   display: none;
 } */
 
+h3.projects__name{
+  color: rgb(123, 39, 202);
+}
+
+h3.about__tags-title{
+  color: rgb(123, 39, 202);
+}
+
+h3.contact__form-title{
+  color: rgb(123, 39, 202);
+}
 .btn.btn-outline-secondary:hover{
   background-color: rgb(123, 39, 202);
   color:rgb(228, 196, 245)
@@ -455,7 +468,7 @@ textarea {
 
 /* ============= Footer ============= */
 .footer {
-  background-color: rgb(91, 70, 167);
+  background-color:  rgb(123, 39, 202);
   color: #efefef;
   padding-bottom: 2rem;
 }
