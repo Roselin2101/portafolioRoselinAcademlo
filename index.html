@@ -18,15 +18,15 @@
 
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <!--MATERIALIZE.CSS-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--bootstrap.CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 
 <body>
   <header class="header">
     <nav class="navbar grid--container">
-      <a class="navbar__logo" href="#"><img src='assets/img/R.png'  width="110px" alt="perfil"></a>
+      <a class="navbar__logo" href="#"><img src='assets/img/R.png'  width="80px" alt="perfil"></a>
       <div class="navbar__menu">
         <i class='bx bx-x btn__close navbar__icon'></i>
         <ul class="navbar__list">
@@ -69,7 +69,7 @@
         </div>
 
         <div class="home__buttons">
-          <a download="cv" href="CvRoselin.pdf" class="btn btn--primary" type="button"> Descargar CV</a>
+          <a download="cv" href="CvRoselin.pdf" class="btn btn-outline-secondary" type="button"> Descargar CV</a>
         </div>
       </div>
     </section>
@@ -79,10 +79,7 @@
 
       <div class="about__container grid--container">
         <p class="about__description">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet incidunt aut distinctio maxime recusandae.
-          Velit exercitationem ducimus cupiditate corrupti eveniet soluta accusamus quasi, suscipit, vitae optio,
-          officiis rerum cumque numquam.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam odit possimus nesciunt numquam odio ducimus tempore placeat itaque vel commodi, sit veritatis, molestias, magnam at. Iure voluptas minus eos corporis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, reprehenderit eius modi sequi voluptates necessitatibus nam corporis cum nemo iure iusto recusandae repudiandae hic id excepturi eveniet accusantium veritatis? Eos?
         </p>
 
         <div class="about__skills grid--container">
@@ -107,9 +104,15 @@
               <h3 class="about__card-title">JavaScript</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </div>
+              <!--Card 3 -->
+              <div class="about__card">
+                <i class='bx bxl-bootstrap'></i>
+                <h3 class="about__card-title">Bootstrap</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              </div>
           </div>
           
-          <!-- <div class="about__tags">
+           <div class="about__tags">
             <h3 class="about__tags-title">Habilidades</h3>
             <div class="about__tags-container">
               <span class="about__tag">Responsable</span>
@@ -118,8 +121,14 @@
               <span class="about__tag">Puntual</span>
               <span class="about__tag">Proactivo</span>
               <span class="about__tag">Autodidacta</span>
+              <span class="about__tag">Puntual</span>
+              <span class="about__tag">Proactivo</span>
+              <span class="about__tag">Autodidacta</span>
+              <span class="about__tag">Responsable</span>
+              <span class="about__tag">Trabajo en equipo</span>
+              <span class="about__tag">Creativo</span>
             </div>
-          </div> -->
+          </div> 
         </div>
       </div>
 
@@ -142,8 +151,8 @@
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">VER DEMO</button>
-                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                <button class="btn btn-outline-secondary" type="button">VER DEMO</button>
+                <button class="btn btn-outline-secondary" type="button">VER CÓDIGO</button>
               </div>
             </div>
           </div>
@@ -162,8 +171,8 @@
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">VER DEMO</button>
-                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                <button class="btn btn-outline-secondary" type="button">VER DEMO</button>
+                <button class="btn btn-outline-secondary" type="button">VER CÓDIGO</button>
               </div>
             </div>
           </div>
@@ -182,8 +191,8 @@
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">VER DEMO</button>
-                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                <button class="btn btn-outline-secondary" type="button">VER DEMO</button>
+                <button class="btn btn-outline-secondary" type="button">VER CÓDIGO</button>
               </div>
             </div>
           </div>
@@ -202,8 +211,8 @@
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">VER DEMO</button>
-                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                <button class="btn btn-outline-secondary" type="button">VER DEMO</button>
+                <button class="btn btn-outline-secondary" type="button">VER CÓDIGO</button>
               </div>
             </div>
           </div>
@@ -226,7 +235,7 @@
               <i class='bx bx-phone'></i>
 
               <span class="contact__info-nomber">
-                +00 123 456 7890
+                +56954406481
               </span>
             </div>
 
@@ -235,7 +244,7 @@
 
               <span class="contact__info-mail">
                 <a href="mailto:test@correo.com">
-                  test@correo.com
+                  rverdufiguera@gmail.com
                 </a>
               </span>
             </div>
@@ -244,7 +253,7 @@
               <i class='bx bx-map'></i>
 
               <span class="contact__info-map">
-                Bogotá, Colombia.
+                Santiago, Chile
               </span>
             </div>
           </address>
@@ -270,7 +279,7 @@
               <textarea id="message" cols="30" rows="10" class="contact__form-input"></textarea>
             </div>
 
-            <button type="submit" class="btn contact__form-button">Enviar</button>
+            <button type="submit" class="btn btn-outline-secondary">Enviar</button>
           </form>
         </div>
       </div>
@@ -281,9 +290,9 @@
   <footer class="footer section">
     <div class="footer__container grid--container">
       <div class="footer__info">
-        <h3 class="footer__title">Jesús Fernández</h3>
+        <h3 class="footer__title">Roselin Verdu</h3>
         <p class="footer__description">
-          Soy desarrollador web, apasionado por la tecnología y la programación.
+          Soy desarrolladora web y diseñadora, apasionado por la tecnología y la programación.
         </p>
       </div>
 
@@ -315,9 +324,9 @@
     </p>
   </footer>
 
-  <!--MATERIALIZE.JS--> 
+  <!--bootstrap.JS--> 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="assets/js/main.js"></script>
 </body>
 
